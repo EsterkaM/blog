@@ -4,9 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
+    "optimize-images": "node scripts/optimize-images.mjs",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "serve": "npx serve ./out"
   },
   "dependencies": {
     "@tailwindcss/postcss": "^4.1.11",
@@ -23,6 +25,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.4.2",
+    "serve": "^14.2.4",
     "typescript": "^5"
   }
 }

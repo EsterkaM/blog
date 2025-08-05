@@ -41,7 +41,7 @@ export default function Page() {
       We visited a typical 19th-century building in Bansko, where is located the museum of the Neophyte of Rila - a ​​linguist, artist, and teacher who authored the first grammar book of the Bulgarian language, a Greek-Slavic dictionary, and also a translation of the New Testament to modern Bulgarian, thus he became the leading personality of the Bulgarian National Revival.
     </LeadingParagraph>
 
-    <ImageWithCaption src='/bansko/neophyte-museum.JPG' caption={`Entrance to the native house, "cell school" and today's museum of Neophyte of Rila.`}></ImageWithCaption>
+    <ImageWithCaption src='/images-optimized/bansko/neophyte-museum.webp' caption={`Entrance to the native house, "cell school" and today's museum of Neophyte of Rila.`}></ImageWithCaption>
     <br />
     <LeadingParagraph>
       Sratsimir Baryakov is a local guide, and he is willing to answer a few questions for us.
@@ -78,8 +78,8 @@ export default function Page() {
     <Paragraph><Bold>I read about the German Brothers, who were very successful bankers and merchants (having bank branches in Vienna and Venice). They were essential for local politics and culture. Do you agree?</Bold></Paragraph>
     <Paragraph>Yeah, it's true. You can even see them (on the family tree fresco of Neophyte of Rila). Yeah, that's his father (Peter Benin, local priest and teacher), that's his mother (Ecaterine from a wealthy family of cotton traders). The German family is from the father's side. Lazar German, the mayor, was crucial for the building of the church, not only because he was the mayor, but he was, you can say, the sacrifice for the church to happen and to be protected afterwards from being destroyed. But it's a long story, like 20 minutes. 🙂</Paragraph>
     
-    <ImageWithCaption src='/bansko/neophyte-fresca.JPG' caption='A fresco from 1989, located in the museum, is dedicated to the family tree of Neophyte of Rila.'></ImageWithCaption>
-    <ImageWithCaption src='/bansko/neophyte-kostel.JPG' caption='The church in Bansko was completed in 1835 thanks to the mayor Lazar German, with the financial assistance of local donors and the physical help of other citizens.' maxLg={"max-w-lg"}></ImageWithCaption>
+    <ImageWithCaption src='/images-optimized/bansko/neophyte-fresca.webp' caption='A fresco from 1989, located in the museum, is dedicated to the family tree of Neophyte of Rila.'></ImageWithCaption>
+    <ImageWithCaption src='/images-optimized/bansko/neophyte-kostel.webp' caption='The church in Bansko was completed in 1835 thanks to the mayor Lazar German, with the financial assistance of local donors and the physical help of other citizens.' maxLg={"max-w-lg"}></ImageWithCaption>
 
     <br />
 
