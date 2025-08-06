@@ -9,14 +9,14 @@ export default function HomePage() {
   return (
     <>
       <Head>
-        <title>dolphini ex stellis</title>
+        <title>delphini ex stellis</title>
         <meta name="description" content="We decided to create a blog of our experiences while travelling." />
-        <meta name="keywords" content="blog, digital nomad" />
+        <meta name="keywords" content="blog, digital nomad, delphini ex stellis, travel blog, traveling, travelers" />
       </Head>
       <main className="max-w-5xl mx-auto px-4 py-8 space-y-12">
         {/* Úvod */}
         <section className="text-center">
-          <Heading1>dolphini ex stellis</Heading1>
+          <Heading1>delphini ex stellis</Heading1>
           <LeadingParagraph>We decided to create a blog of our experiences while travelling.</LeadingParagraph>
         </section>
 
