@@ -1,5 +1,12 @@
-import { Source } from "@/data/blog-post";
+import { BlogPostProps, Source } from "@/data/blog-post";
 import { Paragraph } from "./topology";
+import Head from "next/head";
+
+export const SeoHead = ({ post, tag }: Omit<BlogPostProps, 'breadcrumb'>) => <Head>
+  <title>{post.name}</title>
+  <meta name="description" content={post.description} />
+  <meta name="keywords" content={[tag.name, ...post.keywords].join(', ')} />
+</Head>
 
 export const SourceItem = ({ source }: { source: Source }) => <a target='_blank' href={source.link} className="inline-flex items-center justify-center p-3 text-base font-medium text-gray-500 rounded-lg bg-gray-50 hover:text-gray-900 hover:bg-gray-100 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">
   <svg className="w-6 h-6 me-2 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
