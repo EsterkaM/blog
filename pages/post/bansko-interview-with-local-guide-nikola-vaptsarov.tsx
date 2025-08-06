@@ -1,6 +1,6 @@
 import { SeoHead, Sources } from "@/components/blog-post";
 import { Breadcrumb } from "@/components/layout";
-import { Article, Bold, Heading1, Heading4, LeadingParagraph, Paragraph, SecondaryText } from "@/components/topology";
+import { Article, Bold, Heading1, Heading4, ImageWithCaption, LeadingParagraph, Paragraph, SecondaryText } from "@/components/topology";
 import { BlogPostProps, findPostBySlug } from "@/data/blog-post";
 import { findTagByCode } from "@/data/tag";
 import { GetStaticProps } from "next";
@@ -15,6 +15,9 @@ export default function Page({ post, breadcrumb, tag }: BlogPostProps) {
       <LeadingParagraph>
         On our walk through the Bansko city centre, we noticed another museum, dedicated to the poet and political activist Nikola Vaptsarov, who was also born in Bansko in 1909 to a family whose father was a participant in the anti-Ottoman struggles and whose mother was one of the most educated women in Bansko, working as a teacher. After the German invasion of the Soviet Union in 1941, he got involved with the Bulgarian resistance and was sentenced to death in 1942 by the ruling monarch, Tsar Boris III.
       </LeadingParagraph>
+
+      <ImageWithCaption src='/images-optimized/bansko/cedula.webp' caption={`An information board in front of the N. V. museum.`}></ImageWithCaption>
+      <br />
 
       <Paragraph><Bold>My last question is: What do you think about the relationship the Bulgarian people have to Nikola Vapsarov's legacy? </Bold></Paragraph>
       <Paragraph>Oh, that's an interesting question. Where are you from, by the way? </Paragraph>
