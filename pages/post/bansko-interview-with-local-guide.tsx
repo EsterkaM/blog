@@ -67,7 +67,7 @@ export default function Page({ post, breadcrumb, tag }: BlogPostProps) {
   </>
 }
 
-export const getStaticProps: GetStaticProps<BlogPostProps> = async (props) => {
+export const getStaticProps: GetStaticProps<BlogPostProps> = async () => {
   const tag = findTagByCode("bansko");
   if (!tag) {
     return { notFound: true };
