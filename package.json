@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "optimize-images": "node scripts/optimize-images.mjs",
+    "images": "node scripts/optimize-images.mjs",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",

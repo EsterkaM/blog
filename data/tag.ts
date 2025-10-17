@@ -23,7 +23,7 @@ export const tags: Tag[] = [
     type: "story",
     slug: "/cs/kategorie/pozdravy-z-divociny",
     description: "V této části blogu si můžete přečíst naše zápisky z cest v Jihovýchodní Asie, konkrétně malajského Bornea.",
-    count: 1 // temp
+    count: 2 // temp
   }
 ];
 

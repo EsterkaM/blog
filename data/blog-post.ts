@@ -92,6 +92,16 @@ export const blogPosts: BlogPost[] = [
       link: "https://cs.wikipedia.org/wiki/Hlavn%C3%AD_strana"
     }],
     keywords: ["Gomantong", "Sabah", "Borneo", "Sukau", "Kinabatangan", "Malaysia"]
+  },{
+    id: "4",
+    name: "Pozdravy z divočiny - Sepilok / Sandakan / Sabah",
+    description: "Výhledy z centra Rainforest Discovery Centre v Sepiloku poblíž rehabilitačního centra pro orangutany v Sepiloku. Záblesky jeho jedinečné flóry a fauny.",
+    slug: `${basePath}/cs/clanek/pozdravy-z-divociny/sepilok-sandakan-sabah`,
+    previewImage: "/images-optimized/pozdravy-z-pralesa/sepilok-2.webp",
+    published: "2025-10-11T14:28:01.000Z",
+    tags: ["pozdravy-z-divociny"],
+    sources: [],
+    keywords: ["Sepilok", "Sandakan", "Sabah", "Borneo", "Sukau", "Malaysia"]
   }
 ];
 

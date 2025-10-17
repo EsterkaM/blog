@@ -63,11 +63,11 @@ export const BlogCard = ({ post }: { post: BlogPost }) => {
       <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 max-w-prose">{post.description}</p>
     </div>
   </a>
-}  
+}
 
 export const BlogArticle = ({ children, post, tag, breadcrumb }: PropsWithChildren<BlogPostProps>) => {
   return <>
-    <SeoHead post={post} tag={tag}/>
+    <SeoHead post={post} tag={tag} />
     <Article>
       <Breadcrumb items={breadcrumb} />
       <Heading1>{post.name} {post.subheading && <SecondaryText>{post.subheading}</SecondaryText>}</Heading1>
@@ -76,7 +76,7 @@ export const BlogArticle = ({ children, post, tag, breadcrumb }: PropsWithChildr
 
       <br />
 
-      <Heading4>Sources</Heading4>
+      {post.sources && post.sources.length > 0 && <Heading4>Sources</Heading4>}
       <Sources items={post.sources}></Sources>
 
       <br />
