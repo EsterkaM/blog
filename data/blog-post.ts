@@ -78,7 +78,7 @@ export const blogPosts: BlogPost[] = [
   {
     id: "3",
     name: "Pozdravy z divočiny - Gomantong / Sabah",
-    description: "Zůstali jsme v kouzelné vesničce Sukau, obklopeni pralesem a divokou přírodou. Navštívili jsme jeskyně Gomantong plné netopýrů a ptáků a zažili setkání, na které nezapomeneme — orangutan s mládětem ve volné přírodě. 🦇🦧✨",
+    description: "Zůstali jsme ve vesničce Sukau, obklopeni pralesem. Navštívili jsme jeskyně Gomantong plné netopýrů nahoře a švábů dole. Na závěr jsme zažili setkání s orangutanicí s mládětem.",
     slug: `${basePath}/cs/clanek/pozdravy-z-divociny/gomantong-sabah`,
     previewImage: "/images-optimized/pozdravy-z-pralesa/orangutan-1.webp",
     published: "2025-10-17T10:17:01.000Z",
@@ -95,7 +95,7 @@ export const blogPosts: BlogPost[] = [
   },{
     id: "4",
     name: "Pozdravy z divočiny - Sepilok / Sandakan / Sabah",
-    description: "Výhledy z centra Rainforest Discovery Centre v Sepiloku poblíž rehabilitačního centra pro orangutany v Sepiloku. Záblesky jeho jedinečné flóry a fauny.",
+    description: "Výhledy z pralesní výzkumné stanice v Sepiloku poblíž rehabilitačního centra pro orangutany. Momenty jeho jedinečné flóry a fauny.",
     slug: `${basePath}/cs/clanek/pozdravy-z-divociny/sepilok-sandakan-sabah`,
     previewImage: "/images-optimized/pozdravy-z-pralesa/sepilok-2.webp",
     published: "2025-10-11T14:28:01.000Z",
@@ -106,7 +106,7 @@ export const blogPosts: BlogPost[] = [
   {
     id: "5",
     name: "Pozdravy z divočiny - Kinabatangan / Sabah",
-    description: "Objevování bornejské džungle z malé loďky na řece Kinabatangan bylo dobrodružstvím mimo cestovky – s místním taxikářem, jeho kamarádem průvodcem s opravdovým srdcem pro přírodu. 💚 Když se z přírody stane poklad, o který se lidé starají.",
+    description: "Objevování bornejské džungle z malé loďky na řece Kinabatangan bylo dobrodružstvím mimo cestovky – s místním taxikářem a jeho kamarádem průvodcem. Byli jsme tak tichými účastníky dvou opičích sněmů. ",
     slug: `${basePath}/cs/clanek/pozdravy-z-divociny/kinabatangan-sabah`,
     previewImage: "/images-optimized/pozdravy-z-pralesa/esterka-lod-nastup.webp",
     published: "2025-10-14T13:05:01.000Z",
