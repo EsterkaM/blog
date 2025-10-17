@@ -4,9 +4,10 @@ export type Tag = {
   type?: string;
   slug: string;
   count: number;
+  description?: string; 
 };
 
-export type TagCode = 'bansko' | 'valencia';
+export type TagCode = 'bansko' | 'pozdravy-z-divociny';
 
 export const tags: Tag[] = [
   {
@@ -15,6 +16,14 @@ export const tags: Tag[] = [
     type: "city",
     slug: "/tag/bansko",
     count: 2 // Temp
+  },
+  {
+    name: "Pozdravy z divočiny",
+    code: "pozdravy-z-divociny",
+    type: "story",
+    slug: "/cs/kategorie/pozdravy-z-divociny",
+    description: "V této části blogu si můžete přečíst naše zápisky z cest v Jihovýchodní Asie, konkrétně malajského Bornea.",
+    count: 1 // temp
   }
 ];
 

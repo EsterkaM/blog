@@ -12,6 +12,20 @@ export const Heading4 = ({ children }: PropsWithChildren) => <h2 className="text
 
 export const SecondaryText = ({ children }: PropsWithChildren) => <small className="text-blue-600 dark:text-blue-500">{children}</small>
 
+export function YoutubeVideo({ src, title }: { src: string, title: string }) {
+  return (
+    <div className="relative w-full pb-[56.25%] h-0">
+      <iframe
+        className="absolute top-0 left-0 w-full h-full"
+        src={src}
+        title={title}
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+      ></iframe>
+    </div>
+  );
+}
+
 export const ImageWithCaption = ({ src, caption, maxLg }: { src: string; caption: string; maxLg?: string; }) =>
   <figure className={maxLg ? `${maxLg} mb-2 mt-5 mx-auto` : "mb-2 mx-auto"}>
     <Image

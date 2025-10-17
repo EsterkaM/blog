@@ -1,6 +1,6 @@
 import { Heading1, Heading2, Heading3, LeadingParagraph } from "@/components/topology";
 import Link from "next/link";
-import { blogPosts } from "@/data/blog-post";
+import { blogPosts, sortPostsByPublished } from "@/data/blog-post";
 import { tags } from "@/data/tag";
 import { BlogCard } from "@/components/layout";
 import Head from "next/head";
@@ -40,7 +40,7 @@ export default function HomePage() {
         <section>
           <Heading3>Latest posts</Heading3>
           <div className="grid gap-6 grid-cols-1 lg:grid-cols-2">
-            {blogPosts.map((post) => (
+            {blogPosts.sort(sortPostsByPublished).map((post) => (
               <BlogCard key={post.id} post={post} />
             ))}
           </div>

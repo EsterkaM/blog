@@ -1,8 +1,10 @@
-import { BlogPost } from "@/data/blog-post";
-import { SecondaryText } from "./topology";
+import { BlogPost, BlogPostProps } from "@/data/blog-post";
+import { Article, Heading1, Heading4, SecondaryText } from "./topology";
 import { formatDate } from "@/utils/format-date";
 import Link from "next/link";
 import Image from "next/image";
+import { PropsWithChildren } from "react";
+import { SeoHead, Sources } from "./blog-post";
 
 export interface BreadcrumbItem {
   label: string;
@@ -62,3 +64,22 @@ export const BlogCard = ({ post }: { post: BlogPost }) => {
     </div>
   </a>
 }  
+
+export const BlogArticle = ({ children, post, tag, breadcrumb }: PropsWithChildren<BlogPostProps>) => {
+  return <>
+    <SeoHead post={post} tag={tag}/>
+    <Article>
+      <Breadcrumb items={breadcrumb} />
+      <Heading1>{post.name} {post.subheading && <SecondaryText>{post.subheading}</SecondaryText>}</Heading1>
+
+      {children}
+
+      <br />
+
+      <Heading4>Sources</Heading4>
+      <Sources items={post.sources}></Sources>
+
+      <br />
+    </Article>
+  </>
+}

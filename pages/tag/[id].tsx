@@ -1,6 +1,6 @@
 import { BlogCard, Breadcrumb } from '@/components/layout';
 import { Article, Heading1, Heading3, LeadingParagraph } from '@/components/topology';
-import { blogPosts } from '@/data/blog-post';
+import { getPostsByTag, sortPostsByPublished } from '@/data/blog-post';
 import { type Tag, tags } from '@/data/tag';
 import { GetStaticProps } from 'next';
 
@@ -35,7 +35,7 @@ export default function Tag({ tag }: Props) {
         <Heading3>Latest posts</Heading3>
         <main className="max-w-5xl mx-auto px-0 py-0 space-y-12">
           <div className="grid gap-6 grid-cols-1 lg:grid-cols-2">
-            {blogPosts.map((post) => (
+            {getPostsByTag(tag.code).sort(sortPostsByPublished).map((post) => (
               <BlogCard key={post.id} post={post} />
             ))}
           </div>

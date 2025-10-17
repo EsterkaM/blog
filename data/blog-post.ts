@@ -74,11 +74,37 @@ export const blogPosts: BlogPost[] = [
       }
     ],
     keywords: ["interview", "interview with a guide", "bansko museum"]
+  },
+  {
+    id: "3",
+    name: "Pozdravy z divočiny - Gomantong / Sabah",
+    description: "Zůstali jsme v kouzelné vesničce Sukau, obklopeni pralesem a divokou přírodou. Navštívili jsme jeskyně Gomantong plné netopýrů a ptáků a zažili setkání, na které nezapomeneme — orangutan s mládětem ve volné přírodě. 🦇🦧✨",
+    slug: `${basePath}/cs/clanek/pozdravy-z-divociny/gomantong-sabah`,
+    previewImage: "/images-optimized/pozdravy-z-pralesa/orangutan-1.webp",
+    published: "2025-10-17T10:17:01.000Z",
+    tags: ["pozdravy-z-divociny"],
+    sources: [{
+      label: "Phillipp’s Field Guide: Mammals of Borneo (Second Edition)",
+      link: "https://www.nhpborneo.com/book/mammals-of-borneo/?srsltid=AfmBOoqZHQ4f_657cOI3PMaD3vhlatUzWxwzCiZwA0AnjL-zpPPzOzaZ"
+    },
+    {
+      label: "Wikipedie",
+      link: "https://cs.wikipedia.org/wiki/Hlavn%C3%AD_strana"
+    }],
+    keywords: ["Gomantong", "Sabah", "Borneo", "Sukau", "Kinabatangan", "Malaysia"]
   }
 ];
 
 export function findPostBySlug(slug: string) {
   return blogPosts.find(post => post.slug === slug);
+}
+
+export function getPostsByTag(tag: TagCode) {
+  return blogPosts.filter(post => post.tags.includes(tag));
+}
+
+export function sortPostsByPublished(postA: BlogPost, postB: BlogPost) {
+  return new Date(postB.published).getTime() - new Date(postA.published).getTime()
 }
 
 export interface BlogPostProps {
