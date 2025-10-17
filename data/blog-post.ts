@@ -78,7 +78,7 @@ export const blogPosts: BlogPost[] = [
   {
     id: "3",
     name: "Pozdravy z divočiny - Gomantong / Sabah",
-    description: "Zůstali jsme ve vesničce Sukau, obklopeni pralesem. Navštívili jsme jeskyně Gomantong plné netopýrů nahoře a švábů dole. Na závěr jsme zažili setkání s orangutanicí s mládětem.",
+    description: "Zůstali jsme ve vesničce Sukau, obklopeni pralesem. Navštívili jsme jeskyně Gomantong plné netopýrů nahoře a švábů dole. Na závěr jsme zažili setkání s orangutanicí a jejím mládětem.",
     slug: `${basePath}/cs/clanek/pozdravy-z-divociny/gomantong-sabah`,
     previewImage: "/images-optimized/pozdravy-z-pralesa/orangutan-1.webp",
     published: "2025-10-17T10:17:01.000Z",
@@ -95,9 +95,9 @@ export const blogPosts: BlogPost[] = [
   },{
     id: "4",
     name: "Pozdravy z divočiny - Sepilok / Sandakan / Sabah",
-    description: "Výhledy z pralesní výzkumné stanice v Sepiloku poblíž rehabilitačního centra pro orangutany. Momenty jeho jedinečné flóry a fauny.",
+    description: "Výhledy z výzkumné pralesní stanice v Sepiloku poblíž rehabilitačního centra pro orangutany. Momenty jeho jedinečné flóry a fauny.",
     slug: `${basePath}/cs/clanek/pozdravy-z-divociny/sepilok-sandakan-sabah`,
-    previewImage: "/images-optimized/pozdravy-z-pralesa/sepilok-2.webp",
+    previewImage: "/images-optimized/pozdravy-z-pralesa/milca-sepilok.webp",
     published: "2025-10-11T14:28:01.000Z",
     tags: ["pozdravy-z-divociny"],
     sources: [],
