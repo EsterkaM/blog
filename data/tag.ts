@@ -1,3 +1,5 @@
+import { getPostsByTag } from "./blog-post";
+
 export type Tag = {
   name: string;
   code: TagCode;
@@ -15,7 +17,7 @@ export const tags: Tag[] = [
     code: "bansko",
     type: "city",
     slug: "/tag/bansko",
-    count: 2 // Temp
+    count: getPostsByTag('bansko').length
   },
   {
     name: "Pozdravy z divočiny",
@@ -23,7 +25,7 @@ export const tags: Tag[] = [
     type: "story",
     slug: "/cs/kategorie/pozdravy-z-divociny",
     description: "V této části blogu si můžete přečíst naše zápisky z cest v Jihovýchodní Asie, konkrétně malajského Bornea.",
-    count: 2 // temp
+    count: getPostsByTag('pozdravy-z-divociny').length
   }
 ];
 

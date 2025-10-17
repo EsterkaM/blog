@@ -101,7 +101,18 @@ export const blogPosts: BlogPost[] = [
     published: "2025-10-11T14:28:01.000Z",
     tags: ["pozdravy-z-divociny"],
     sources: [],
-    keywords: ["Sepilok", "Sandakan", "Sabah", "Borneo", "Sukau", "Malaysia"]
+    keywords: ["Sepilok", "Sandakan", "Sabah", "Borneo", "Malaysia"]
+  },
+  {
+    id: "5",
+    name: "Pozdravy z divočiny - Kinabatangan / Sabah",
+    description: "Objevování bornejské džungle z malé loďky na řece Kinabatangan bylo dobrodružstvím mimo cestovky – s místním taxikářem, jeho kamarádem průvodcem s opravdovým srdcem pro přírodu. 💚 Když se z přírody stane poklad, o který se lidé starají.",
+    slug: `${basePath}/cs/clanek/pozdravy-z-divociny/kinabatangan-sabah`,
+    previewImage: "/images-optimized/pozdravy-z-pralesa/esterka-lod-nastup.webp",
+    published: "2025-10-14T13:05:01.000Z",
+    tags: ["pozdravy-z-divociny"],
+    sources: [],
+    keywords: ["Kinabatangan", "Sandakan", "Sabah", "Borneo", "Malaysia"]
   }
 ];
 
