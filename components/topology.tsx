@@ -1,5 +1,6 @@
 import { PropsWithChildren } from "react"
 import Image from "next/image";
+import Link from "next/link";
 
 export const Article = ({ children }: PropsWithChildren) => <article className="max-w-3xl mx-auto p-6 prose prose-lg prose-indigo">{children}</article>
 export const LeadingParagraph = ({ children }: PropsWithChildren) => <p className="mb-5 text-lg md:text-xl sm:text-xxl text-gray-500 dark:text-gray-400">{children}</p>
@@ -9,6 +10,7 @@ export const Heading1 = ({ children }: PropsWithChildren) => <h1 className="text
 export const Heading2 = ({ children }: PropsWithChildren) => <h2 className="text-4xl font-bold mb-6 dark:text-white">{children}</h2>
 export const Heading3 = ({ children }: PropsWithChildren) => <h2 className="text-3xl font-bold mb-6 dark:text-white">{children}</h2>
 export const Heading4 = ({ children }: PropsWithChildren) => <h2 className="text-2xl font-bold mb-6 dark:text-white">{children}</h2>
+export const LinkInline = ({ children, href }: PropsWithChildren<{href: string}>) => <Link href={href} className="ms-1 text-sm font-medium text-gray-700 hover:text-blue-600 md:ms-2 dark:text-gray-400 dark:hover:text-white">{children}</Link>
 
 export const SecondaryText = ({ children }: PropsWithChildren) => <small className="text-blue-600 dark:text-blue-500">{children}</small>
 

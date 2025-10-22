@@ -1,8 +1,7 @@
 import { BlogArticle } from "@/components/layout";
 import { ImageWithCaption, Paragraph, YoutubeVideo } from "@/components/topology";
-import { BlogPostProps, findPostBySlug } from "@/data/blog-post";
-import { findTagByCode } from "@/data/tag";
-import { GetStaticProps } from "next/types";
+import { BlogPostProps } from "@/data/blog-post";
+import { getBlogPostStaticProps } from "@/utils/build-blog-post-static-props";
 
 export default function Page({ post, breadcrumb, tag }: BlogPostProps) {
   return <BlogArticle post={post} breadcrumb={breadcrumb} tag={tag}>
@@ -33,30 +32,7 @@ Adventures with Ester - Gomantong Cave / Sabah, Borneo"></YoutubeVideo>
   </BlogArticle>
 }
 
-export const getStaticProps: GetStaticProps<BlogPostProps> = async () => {
-  const tag = findTagByCode("pozdravy-z-divociny");
-  if (!tag) {
-    return { notFound: true };
-  }
-
-  const post = findPostBySlug("/cs/clanek/pozdravy-z-divociny/gomantong-sabah");
-  if (!post) {
-    return { notFound: true };
-  }
-
-  return {
-    props: {
-      post,
-      tag,
-      breadcrumb: [
-        ...(tag ? [{
-          label: tag.name,
-          link: tag.slug
-        }] : []),
-        {
-          label: post.name,
-        }
-      ]
-    }
-  }
-};
+export const getStaticProps = getBlogPostStaticProps({
+  tagCode: "pozdravy-z-divociny",
+  postSlug: "/cs/clanek/pozdravy-z-divociny/gomantong-sabah"
+});

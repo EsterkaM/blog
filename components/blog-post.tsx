@@ -6,6 +6,9 @@ export const SeoHead = ({ post, tag }: Omit<BlogPostProps, 'breadcrumb'>) => <He
   <title>{post.name}</title>
   <meta name="description" content={post.description} />
   <meta name="keywords" content={["delphini ex stellis", tag.name, ...post.keywords].join(', ')} />
+  <meta name="og:title" content={post.name}></meta>
+  <meta name="og:description" content={post.description}></meta>
+  <meta name="og:image" content={post.previewImage}></meta>
 </Head>
 
 export const SourceItem = ({ source }: { source: Source }) => <a target='_blank' href={source.link} className="inline-flex items-center justify-center p-3 text-base font-medium text-gray-500 rounded-lg bg-gray-50 hover:text-gray-900 hover:bg-gray-100 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">

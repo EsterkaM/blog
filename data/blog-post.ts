@@ -113,6 +113,17 @@ export const blogPosts: BlogPost[] = [
     tags: ["pozdravy-z-divociny"],
     sources: [],
     keywords: ["Kinabatangan", "Sandakan", "Sabah", "Borneo", "Malaysia"]
+  },
+  {
+    id: "6",
+    name: "Pozdravy z divočiny - Sukau village / Sabah",
+    description: "Sukau je malá vesnička na řece Kinabatangan. Tohle poklidné místo nám poháhalo se zastavit a ponořit se do sebe sama a pozorovat krásy deštného pralesa a divoké zvířata žijící v symbióze s místními obyvately.",
+    slug: `${basePath}/cs/clanek/pozdravy-z-divociny/sukau-village-sabah`,
+    previewImage: "/images-optimized/pozdravy-z-pralesa/vesnice-nahled-blog.webp",
+    published: "2025-10-21T17:32:01.000Z",
+    tags: ["pozdravy-z-divociny"],
+    sources: [],
+    keywords: ["Kinabatangan", "Sukau", "Sukau village", "Sabah", "Borneo", "Malaysia"]
   }
 ];
 
