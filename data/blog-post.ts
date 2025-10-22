@@ -117,7 +117,7 @@ export const blogPosts: BlogPost[] = [
   {
     id: "6",
     name: "Pozdravy z divočiny - Sukau village / Sabah",
-    description: "Sukau je malá vesnička na řece Kinabatangan. Tohle poklidné místo nám poháhalo se zastavit a ponořit se do sebe sama a pozorovat krásy deštného pralesa a divoké zvířata žijící v symbióze s místními obyvately.",
+    description: "Sukau je vesnička na řece Kinabatangan. Tohle poklidné místo nám pomohlo se zastavit, ponořit se do nitra, pozorovat krásy deštného pralesa a zvířata žijící v blízkosti místních lidí.",
     slug: `${basePath}/cs/clanek/pozdravy-z-divociny/sukau-village-sabah`,
     previewImage: "/images-optimized/pozdravy-z-pralesa/vesnice-nahled-blog.webp",
     published: "2025-10-21T17:32:01.000Z",
