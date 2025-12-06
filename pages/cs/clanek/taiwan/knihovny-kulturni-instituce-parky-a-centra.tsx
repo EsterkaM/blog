@@ -20,7 +20,7 @@ export default function Page({ post, breadcrumb, tag, gallery }: BlogPostProps) 
     <Gallery gallery={gallery1 || []} ></Gallery>
 
     <Paragraph>Na dětských hřištích, kam nás vozila maminka dětí, které jsme tu hlídali jsme kromě WC viděli i venkovní umyvadla a sprchy. Dalším krásným projektem jsou centra pro rodiny.
-      Přestavte si prostor, který je asi tak troj až pětinásobně velký než běžná školka a je vybaven nejen bežnými hračkami, ale hrami, který pomáhají rozvíjet přesně ty aspekty, které dětí v daném období potřebuje.
+      Přestavte si prostor, který je asi tak troj až pětinásobně větší než běžná školka a je vybaven nejen bežnými hračkami, ale hrami, který pomáhají rozvíjet přesně ty aspekty, které dětí v daném období potřebuje.
       V centrech jsou tedy sekce od 0,5 do šesti let, rozdělené i proto, aby starší děti malá batolátka neohrožovaly. Zaměstnanci center každé tři měsíce mění témata aktivit (taiwanské tradiční pokrmy a nápoje, řemesla, zvyky a náboženství…), kde si děti formou hry vyzkouší přípravu pokrmů, návštěvu chrámů a jiné činnosti dospělích.
       Tato centra obsahují i dílny, kde si děti mohou něco vyrobit a taky čtecí koutek, kde mohou rodiče s dětmi zajít na besedu. Pak zde bývají i venkovní části, kde si děti mohou půjčit kolobežku nebo odrážedlo, to vše zdarma, takže tam rodiče a opatrovníci s dětmi můžou chodit každý den.
       Jako člověk, který má papír s názvem „osvědčení pro chůvy“ a taky jako kamarádka několika rodičů jsem k této oblasti pozorná a všimla jsem si častých „family toilets“ s malým záchodkem a přebalovacím pultem, dále taky „Brestfeeding Room“, kde může maminka v klidu nakojit v křesle nebo vysterilizovat lahvičku na mléko.
