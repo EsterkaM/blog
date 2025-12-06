@@ -9,9 +9,17 @@ export type Tag = {
   description?: string; 
 };
 
-export type TagCode = 'bansko' | 'pozdravy-z-divociny';
+export type TagCode = 'bansko' | 'pozdravy-z-divociny' | 'taiwan';
 
 export const tags: Tag[] = [
+  {
+    name: "Taiwan",
+    code: "taiwan",
+    type: "country",
+    slug: "/cs/kategorie/taiwan",
+    description: "V této části blogu si můžete přečíst naše zápisky z cest v Jihovýchodní Asie, konkrétně ostrova Taiwan.",
+    count: getPostsByTag('taiwan').length
+  },
   {
     name: "Bansko",
     code: "bansko",

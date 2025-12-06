@@ -124,6 +124,17 @@ export const blogPosts: BlogPost[] = [
     tags: ["pozdravy-z-divociny"],
     sources: [],
     keywords: ["Kinabatangan", "Sukau", "Sukau village", "Sabah", "Borneo", "Malaysia"]
+  },
+  {
+    id: "7",
+    name: "Knihovny, muzea, parky, centra pro rodiny a veřejné záchodky na Taiwanu",
+    description: "Veřejné prostory na Taiwanu vypadají jako v ideálním světě. Velké parky s cvičícími stařečky a hrajícími si dětmi, čisté toalety na každém kroku. Krásné knihovny a muzea, kde se najdou i knihy v češtině.",
+    slug: `${basePath}/cs/clanek/taiwan/knihovny-kulturni-instituce-parky-a-centra`,
+    previewImage: "/images-optimized/taiwan/esterka-profilovka.webp",
+    published: "2025-12-02T15:42:01.000Z",
+    tags: ["taiwan"],
+    sources: [],
+    keywords: ["centra pro rodiny s dětmi", "knihovna", "kulturní instituce", "park", "Taiwan"]
   }
 ];
 
@@ -142,5 +153,6 @@ export function sortPostsByPublished(postA: BlogPost, postB: BlogPost) {
 export interface BlogPostProps {
   breadcrumb: BreadcrumbItem[];
   tag: Tag;
-  post: BlogPost
+  post: BlogPost;
+  gallery?: string[]
 }
