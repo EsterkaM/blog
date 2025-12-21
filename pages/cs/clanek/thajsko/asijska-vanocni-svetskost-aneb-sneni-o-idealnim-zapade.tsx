@@ -16,7 +16,7 @@ export default function Page({ post, breadcrumb, tag, gallery }: BlogPostProps) 
       vánoční stromy před nákupními domy za zvuku ohňostrojů (ohleduplnost k
       domácím mazlíčkům v tomto kontextu sem ještě nedorazila), k lehkému
       zklamání naší milované taiwanské hostetitelky jsme neuměli předstírat
-      nadšení. Malému filďákovi ve mně bylo prostě líto, že kvalitně
+      nadšení. Malému filďákovi ve mně bylo prostě líto, že kvalitní a
       promyšlené výstavy v bohatě financovaných muzeích a galeriích jsou
       poloprázdné a u obchoďáku (mezi značkami s příznačnými jmény - Saint
       Laurent a All Saints) jsme se navzájem málem ušlapali.
