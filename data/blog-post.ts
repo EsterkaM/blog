@@ -135,6 +135,17 @@ export const blogPosts: BlogPost[] = [
     tags: ["taiwan"],
     sources: [],
     keywords: ["centra pro rodiny s dětmi", "knihovna", "kulturní instituce", "park", "Taiwan"]
+  },
+  {
+    id: "8",
+    name: "Asijská vánoční světskost aneb snění o ideálním „Západě“",
+    description: "Ze způsobu, jakým slaví mladé asijské rodiny Vánoce jsme měli první Vánoce. Mysleli jsme, že zdejší vánoční cirkus se má přiblížit turistům, ale naše taiwanská kamarádka říkala, že některé rodiny mají stromeček i doma.",
+    slug: `${basePath}/cs/clanek/thajsko/asijska-vanocni-svetskost-aneb-sneni-o-idealnim-zapade`,
+    previewImage: "/images-optimized/thajsko/santa.webp", // TODO
+    published: "2025-12-21T15:42:01.000Z",
+    tags: ["thajsko"],
+    sources: [],
+    keywords: ["vánoce", "thajsko", "Taiwan"]
   }
 ];
 
