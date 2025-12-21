@@ -22,6 +22,11 @@ export default function Page({ post, breadcrumb, tag, gallery }: BlogPostProps) 
       Laurent a All Saints) jsme se navzájem málem ušlapali.
     </Paragraph>
 
+    <YoutubeVideo src="https://www.youtube.com/embed/POE4tL6aSD8?si=xItug7Th8b-Paq0U" title="
+Kaohsiung and its fascination with Venice"></YoutubeVideo>
+
+    <br />
+
     <Paragraph>
       Tématem letošních Vánoc na Taiwanu byly Benátky. Nevím, jestli o
       těchto jevech na italském ministerstvu turismu vědí, ale v
@@ -51,6 +56,10 @@ export default function Page({ post, breadcrumb, tag, gallery }: BlogPostProps) 
       Avatara.
     </Paragraph>
 
+    <YoutubeVideo src="https://www.youtube.com/embed/oEgUmYP1Whk?si=3Av19c-ERp0a7VGm" title="
+Merry Christmas from Kaohsiung"></YoutubeVideo>
+
+    <br />
     <Paragraph>
       <strong> Tradice je přece od toho, aby se aktualizovala - ne?</strong>
     </Paragraph>
