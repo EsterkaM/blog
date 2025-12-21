@@ -32,20 +32,19 @@ Kaohsiung and its fascination with Venice"></YoutubeVideo>
       těchto jevech na italském ministerstvu turismu vědí, ale v
       jihovýchodní Asii jim dělají obchodní domy velkou reklamu na cesty do Itálie zdarma.
       Gondoliéři, benátský lev, benátské mostíky a napodobeniny notoricky,
-      ale i méně známých památek byly hlavní hvězdou každého obchoďáku, ve
-      kterém jsme byli. Z asijského vánočního snění o Benátekách jsme viděli
-      i něco, co se dá označit za zábavní park, kde si nadšené taiwanské
+      ale i méně známých památek, byly hlavní hvězdou každého obchoďáku, který jsme navštívili. Z asijského vánočního snění o Benátekách jsme viděli
+      i něco, co se dá kategorizovat jako zábavní park. Zde si nadšené taiwanské
       rodiny s dětmi dělali vánoční rodinné fotografie… kdo by jim to měl za
       zlé, když z toho měli tak upřímnou radost. Znova bych jen zmínila
-      obavu o zklámání z reality, kde není v Itálii všechno naleštěné a
-      voňavé.
+      obavu o zklámání z reality, ve které není všechno tak naleštěné a
+      voňavé. Funguje to jako by člověk porovnával anime a naši realitu.
     </Paragraph>
 
     <Gallery gallery={gallery || []} ></Gallery>
 
     <Paragraph>
       V prosinci gondoliérům přibily na klobouku vánoční girlandy a dokola
-      začali obíhat zaměstanaci obchodního domu v oblečcích Santa Clause,
+      začali pobíhat zaměstanaci obchodního domu v oblečcích Santa Clause,
       sněhuláčků a sobíků. Poslední adventní týden thajští rodiče nastrkali
       své potomečky do vánočních oblečků, které vypadaly jako vánoční
       stromečky a americké cukrkandlíčky. GDPR je lidem v jihovýchodní Asii
