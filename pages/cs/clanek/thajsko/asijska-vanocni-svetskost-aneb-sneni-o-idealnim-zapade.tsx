@@ -23,9 +23,9 @@ export default function Page({ post, breadcrumb, tag, gallery }: BlogPostProps) 
     </Paragraph>
 
     <Paragraph>
-      Tématem letošních Vánoc na Taiwanu byly Benátky. Nevím, jestlli o
+      Tématem letošních Vánoc na Taiwanu byly Benátky. Nevím, jestli o
       těchto jevech na italském ministerstvu turismu vědí, ale v
-      jihovýchodní Asii dělají obchodní domy velkou reklamu Itálii zdarma.
+      jihovýchodní Asii jim dělají obchodní domy velkou reklamu na cesty do Itálie zdarma.
       Gondoliéři, benátský lev, benátské mostíky a napodobeniny notoricky,
       ale i méně známých památek byly hlavní hvězdou každého obchoďáku, ve
       kterém jsme byli. Z asijského vánočního snění o Benátekách jsme viděli
