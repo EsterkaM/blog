@@ -43,7 +43,7 @@ Kaohsiung and its fascination with Venice"></YoutubeVideo>
     <Gallery gallery={gallery || []} ></Gallery>
 
     <Paragraph>
-      V prosinci gondoliérům přibily na klobouku vánoční girlandy a dokola
+      V Thajsku v prosinci gondoliérům přibily na klobouku vánoční girlandy a dokola
       začali pobíhat zaměstanaci obchodního domu v oblečcích Santa Clause,
       sněhuláčků a sobíků. Poslední adventní týden thajští rodiče nastrkali
       své potomečky do vánočních oblečků, které vypadaly jako vánoční
