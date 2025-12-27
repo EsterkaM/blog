@@ -146,6 +146,17 @@ export const blogPosts: BlogPost[] = [
     tags: ["thajsko"],
     sources: [],
     keywords: ["vánoce", "thajsko", "Taiwan"]
+  },
+  {
+    id: "8",
+    name: "Postřehy z lásky, partnerství a sociálních věcí v Pattaye a Bankoku",
+    description: "Pattaya a Bankok nejsou jen místa pro sexuální turistiku a hýření. Je to rekreační místo i pro rodiny s dětmi a především, jsou to oblasti, kde se tvoří nová pracovní místa, a tím kvete thajská střední třída, která si může dovolit stále důstojnější život.",
+    slug: `${basePath}/cs/clanek/thajsko/postrehy-z-lasky-partnerstvi-a-socialnich-veci-v-pattaye-a-bankoku`,
+    previewImage: "/images-optimized/thajsko/socha.webp", // TODO
+    published: "2025-12-27T16:04:01.000Z",
+    tags: ["thajsko"],
+    sources: [],
+    keywords: ["vánoce", "thajsko", "láska"]
   }
 ];
 
