@@ -20,7 +20,7 @@ export default function Page({ post, breadcrumb, tag, gallery }: BlogPostProps) 
     <Gallery gallery={gallery2 || []} ></Gallery>
 
     <Paragraph>Tichý obdiv a lehkou závist jsem pociťovala k ženám, které byly vysoké, atletické a měly tolik šarmu, jisker a ženskosti, kterou bych ze sebe nikdy nevydolovala - v tomto životě, ve kterém mám hrát roli ženy. U těchto dam často nebylo jisté, co mají mezi nohama. To ale, jak jsem zde zjistila není ten hlavní ukazatel feminních kvalit.
-      Další body za lidskost u mě Pattaya má kvůli tomu, že nechá i sedmdesátnice tančit v kabaretu a nevykopne ji jen proto, že už není mladá. Šedesát procent lidí v Thajsku končí bez důchodu, takže staří lidé se živí často jako pouliční prodejci jídla, suvenárů apod. Moc bychom těmto lidem přáli komfort českých důchodců. Jaké máme štěstí, že nemusíme vidět naše babičky tančit v klubu nebo prodávat kokosy na pláži.
+      Další body za lidskost u mě Pattaya má kvůli tomu, že nechá i sedmdesátnice tančit v kabaretu a nevykopne ji jen proto, že už není mladá. Šedesát procent lidí v Thajsku končí bez důchodu, takže staří lidé se živí často jako pouliční prodejci jídla, suvenýrů apod. Moc bychom těmto lidem přáli komfort českých důchodců. Jaké máme štěstí, že nemusíme vidět naše babičky tančit v klubu nebo prodávat kokosy na pláži.
       V Thajsku není demokracie a královská rodina se nesmí kritizovat, můžu jen objektivně tvrdit, že do kultu osobnosti zdejších panovníků se investuje tolik peněz (na každém kroku oltářky - květiny, portréty ve zlatých rámech, fangle…), že by se za to jistě ubytovalo mnoho starých lidí bez domova.
     </Paragraph>
 
